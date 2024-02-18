@@ -93,31 +93,7 @@ function Faq () {
                             for our users.</p>
                     </div>
                 </div>
-
-                <div className="">
-                    <div className="flex justify-between items-center px-6 py-4 cursor-pointer"
-                         onClick={() => toggleAnswer('faq5')}>
-                        <h3 className="text-lg font-semibold">How does Wealthify ensure the security of my investments
-                            and
-                            personal information?</h3>
-                        <svg className="w-6 h-6 transform transition-transform" id="arrow-faq5" viewBox="0 0 24 24"
-                             fill="none"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 15L12 8L19 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                  stroke-linejoin="round"></path>
-                        </svg>
-                    </div>
-                    <div id="faq5" className="px-10 pb-4 hidden">
-                        <p className="text-gray-600">At Wealthify, we prioritize the security of your investments and
-                            personal
-                            information. Wealthify employs industry-standard security measures, including encryption,
-                            secure
-                            data storage, and biometric authentication, to safeguard your assets and data. Additionally,
-                            Wealthify is regulated by [relevant regulatory authority], providing an extra layer of
-                            oversight
-                            and protection for our users.</p>
-                    </div>
-                </div>
+                
             </div>
         </div>
     );
