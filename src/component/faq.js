@@ -1,6 +1,6 @@
 function Faq () {
     return (
-        <div className="my-4 py-20">
+        <div className="my-4 py-20 px-4">
             <div className="mx-auto max-w-4xl">
                 <h2 className="text-4xl text-center pb-12 font-bold text-black sm:text-5xl">FAQ</h2>
             </div>
