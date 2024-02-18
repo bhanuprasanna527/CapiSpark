@@ -1,4 +1,11 @@
 function Interested () {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
+
     return (
         <div className="bg-gray-100 my-4 py-20">
             <div className="mx-auto max-w-4xl">
@@ -15,6 +22,10 @@ function Interested () {
                 {/*        </button>*/}
                 {/*    </div>*/}
                 {/*</form>*/}
+                <button className="px-4 py-2 bg-zinc-700 text-white rounded-xl mx-auto block" onClick={scrollToTop}>
+                    Join the Waitlist!
+                </button>
+
             </div>
         </div>
     );

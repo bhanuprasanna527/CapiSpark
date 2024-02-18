@@ -15,8 +15,8 @@ function Modal({ isOpen, onClose }) {
         dragFriction: 0.12,
         duration: 1500,
         stagger: 3,
-        width: "10px",
-        height: "10px",
+        width: "15px",
+        height: "15px",
         colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
     };
 
@@ -78,7 +78,7 @@ function Front() {
     }
 
     return (
-        <div className="flex items-center h-screen justify-center m-6">
+        <div className="flex items-center justify-center m-6">
             <div className="mx-auto max-w-2xl">
                 <h2 className="text-6xl text-center pb-12 font-bold tracking-tight text-black sm:text-8xl">Wealthify</h2>
                 <br/>
