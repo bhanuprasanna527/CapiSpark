@@ -36,7 +36,7 @@ function Modal({ isOpen, onClose }) {
     return (
         <>
             {isOpen ? (
-                <div className="fixed inset-0 z-50 overflow-auto bg-gray-900 bg-opacity-50 flex justify-center items-center">
+                <div className="fixed inset-0 z-50 overflow-auto bg-gray-900 bg-opacity-50 flex justify-center items-center px-4">
                     <div className="bg-white p-8 rounded-3xl shadow-md max-w-md relative">
                         <Confetti active={showConfetti} config={config} />
                         <p className="text-xl font-semibold mb-4">Thank you for Joining the Waitlist!</p>
@@ -78,7 +78,7 @@ function Front() {
     }
 
     return (
-        <div className="flex items-center justify-center m-6">
+        <div className="flex items-center justify-center m-6 py-20">
             <div className="mx-auto max-w-2xl">
                 <h2 className="text-6xl text-center pb-12 font-bold tracking-tight text-black sm:text-8xl">Wealthify</h2>
                 <br/>
