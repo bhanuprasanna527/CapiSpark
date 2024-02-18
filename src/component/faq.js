@@ -5,7 +5,7 @@ function Faq () {
                 <h2 className="text-4xl text-center pb-12 font-bold text-black sm:text-5xl">FAQ</h2>
             </div>
 
-            <div className="mx-auto max-w-4xl bg-[#F7F7F7] rounded-3xl">
+            <div className="mx-auto max-w-4xl bg-[#F7F7F7] rounded-3xl m-4">
                 <div className="">
                     <div className="flex justify-between items-center px-6 py-4 cursor-pointer"
                          onClick={() => toggleAnswer('faq1')}>
