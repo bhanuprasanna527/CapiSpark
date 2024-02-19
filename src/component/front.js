@@ -96,12 +96,14 @@ function Front() {
                                value={emailID} onChange={(e) => setEmailID(e.target.value)}
                                className="mt-1 px-4 py-2 block w-full rounded-md bg-gray-200"
                                placeholder="name@email.com"/>
+                        <h2 className="text-base text-center text-[#888888] sm:text-sm">We'll never share your info with anyone.</h2>
                     </div>
                     <div className="text-center">
-                        <button type="submit" className="px-4 py-2 bg-zinc-700 text-white rounded-xl" onClick={openModal}>
+                    <button type="submit" className="px-4 py-2 bg-zinc-700 text-white rounded-xl"
+                                onClick={openModal}>
                             Join the Waitlist!
                         </button>
-                        <Modal isOpen={isOpen} onClose={closeModal} />
+                        <Modal isOpen={isOpen} onClose={closeModal}/>
                     </div>
                 </form>
             </div>
