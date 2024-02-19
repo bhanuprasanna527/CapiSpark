@@ -91,7 +91,7 @@ function Front() {
 
 
                 <form action="" id="waitlistDB1" className="mx-auto max-w-sm" onSubmit={addEmailID}>
-                    <div className="mb-4">
+                    <div className="mb-4 pb-4">
                         <input type="email" id="email1" name="email" required
                                value={emailID} onChange={(e) => setEmailID(e.target.value)}
                                className="mt-1 px-4 py-2 block w-full rounded-md bg-gray-200"
