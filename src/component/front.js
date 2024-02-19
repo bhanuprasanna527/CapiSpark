@@ -80,9 +80,9 @@ function Front() {
     return (
         <div className="flex items-center justify-center m-6 py-20">
             <div className="mx-auto max-w-2xl">
-                <h2 className="text-6xl text-center pb-12 font-bold tracking-tight text-black sm:text-8xl">Wealthify</h2>
+                <h2 className="text-6xl text-center pb-4 font-bold tracking-tight text-black sm:text-8xl">Wealthify</h2>
                 <br/>
-                <img className="h-full w-full pb-12 rounded-full"
+                <img className="h-full w-full pb-4 rounded-full"
                      src="https://framerusercontent.com/images/3RHWZYahinLCkAECel7RC62Tv8.jpg"
                      alt="image description"/>
                 <br/>
