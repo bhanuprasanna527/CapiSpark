@@ -9,7 +9,7 @@ function Faq () {
                 <div className="">
                     <div className="flex justify-between items-center px-6 py-4 cursor-pointer"
                          onClick={() => toggleAnswer('faq1')}>
-                        <h3 className="text-lg font-semibold">What is Wealthify?</h3>
+                        <h3 className="text-lg font-semibold">What is CapiSpark?</h3>
                         <svg className="w-6 h-6 transform transition-transform" id="arrow-faq1" viewBox="0 0 24 24"
                              fill="none"
                              xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,7 @@ function Faq () {
                         </svg>
                     </div>
                     <div id="faq1" className="px-10 pb-4 hidden">
-                        <p className="text-gray-600">Wealthify is an innovative robo advisor platform designed
+                        <p className="text-gray-600">CapiSpark is an innovative robo advisor platform designed
                             exclusively for
                             mobile devices. It offers automated investment solutions tailored to your financial goals
                             and
@@ -29,7 +29,7 @@ function Faq () {
                 <div className="">
                     <div className="flex justify-between items-center px-6 py-4 cursor-pointer"
                          onClick={() => toggleAnswer('faq2')}>
-                        <h3 className="text-lg font-semibold">How does Wealthify work?</h3>
+                        <h3 className="text-lg font-semibold">How does CapiSpark work?</h3>
                         <svg className="w-6 h-6 transform transition-transform" id="arrow-faq2" viewBox="0 0 24 24"
                              fill="none"
                              xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ function Faq () {
                         </svg>
                     </div>
                     <div id="faq2" className="px-10 pb-4 hidden">
-                        <p className="text-gray-600">Wealthify works by first assessing your financial situation,
+                        <p className="text-gray-600">CapiSpark works by first assessing your financial situation,
                             investment
                             goals, and risk tolerance. Based on this information, our platform recommends a personalized
                             investment plan comprised of diversified portfolios of low-cost exchange-traded funds (ETFs)
@@ -51,7 +51,7 @@ function Faq () {
                 <div className="">
                     <div className="flex justify-between items-center px-6 py-4 cursor-pointer"
                          onClick={() => toggleAnswer('faq3')}>
-                        <h3 className="text-lg font-semibold">Is Wealthify suitable for me?</h3>
+                        <h3 className="text-lg font-semibold">Is CapiSpark suitable for me?</h3>
                         <svg className="w-6 h-6 transform transition-transform" id="arrow-faq3" viewBox="0 0 24 24"
                              fill="none"
                              xmlns="http://www.w3.org/2000/svg">
@@ -60,11 +60,11 @@ function Faq () {
                         </svg>
                     </div>
                     <div id="faq3" className="px-10 pb-4 hidden">
-                        <p className="text-gray-600">Wealthify is suitable for anyone looking for a convenient and
+                        <p className="text-gray-600">CapiSpark is suitable for anyone looking for a convenient and
                             user-friendly
-                            way to invest. Whether you're a beginner investor or have more experience, Wealthify
+                            way to invest. Whether you're a beginner investor or have more experience, CapiSpark
                             provides a
-                            seamless investing experience tailored to your needs. With intuitive navigation, Wealthify
+                            seamless investing experience tailored to your needs. With intuitive navigation, CapiSpark
                             makes
                             investing accessible anytime, anywhere.</p>
                     </div>
@@ -73,7 +73,7 @@ function Faq () {
                 <div className="">
                     <div className="flex justify-between items-center px-6 py-4 cursor-pointer"
                          onClick={() => toggleAnswer('faq4')}>
-                        <h3 className="text-lg font-semibold">What are the fees associated with Wealthify?</h3>
+                        <h3 className="text-lg font-semibold">What are the fees associated with CapiSpark?</h3>
                         <svg className="w-6 h-6 transform transition-transform" id="arrow-faq4" viewBox="0 0 24 24"
                              fill="none"
                              xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +82,7 @@ function Faq () {
                         </svg>
                     </div>
                     <div id="faq4" className="px-10 pb-4 hidden">
-                        <p className="text-gray-600">Wealthify offers transparent and competitive pricing with low fees.
+                        <p className="text-gray-600">CapiSpark offers transparent and competitive pricing with low fees.
                             Our fee
                             structure typically includes an annual management fee based on a percentage of your assets
                             under

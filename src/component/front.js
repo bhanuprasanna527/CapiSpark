@@ -40,7 +40,7 @@ function Modal({ isOpen, onClose }) {
                     <div className="bg-white p-8 rounded-3xl shadow-md max-w-md relative">
                         <Confetti active={showConfetti} config={config} />
                         <p className="text-xl font-semibold mb-4">Thank you for Joining the Waitlist!</p>
-                        <p className="text-gray-700 mb-4">We are very much excited to bring our dream <b>Wealthify</b> to you.</p>
+                        <p className="text-gray-700 mb-4">We are very much excited to bring our dream <b>CapiSpark</b> to you.</p>
                         <button onClick={closeModalWithConfetti} className="px-4 py-2 bg-zinc-700 text-white rounded-xl">
                             Close
                         </button>
@@ -68,7 +68,7 @@ function Front() {
         e.preventDefault();
 
         try {
-            const docRef = await addDoc(collection(db, "WealthifyWaitlist"), {
+            const docRef = await addDoc(collection(db, "CapiSparkWaitlist"), {
                 EmailID: emailID,
             });
             console.log("Document written with ID: ", docRef.id);
@@ -80,7 +80,7 @@ function Front() {
     return (
         <div className="flex items-center justify-center m-6 py-20">
             <div className="mx-auto max-w-2xl">
-                <h2 className="text-6xl text-center pb-4 font-bold tracking-tight text-black sm:text-8xl">Wealthify</h2>
+                <h2 className="text-6xl text-center pb-4 font-bold tracking-tight text-black sm:text-8xl">CapiSpark</h2>
                 <br/>
                 <img className="h-full w-full pb-4 rounded-full"
                      src="https://framerusercontent.com/images/3RHWZYahinLCkAECel7RC62Tv8.jpg"

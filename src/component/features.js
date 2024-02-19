@@ -11,7 +11,7 @@ function Features() {
                             <div class="mt-4 md:mt-0">
                                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Personalized Investment
                                     Plans</h2>
-                                <p class="mb-6 font-light text-gray-500 md:text-lg">Wealthify offers personalized investment
+                                <p class="mb-6 font-light text-gray-500 md:text-lg">CapiSpark offers personalized investment
                                     plans tailored to your financial goals, risk tolerance, and time horizon. Our intuitive
                                     platform analyzes your unique financial situation and provides custom investment strategies
                                     to help you achieve your objectives with confidence.</p>
@@ -28,7 +28,7 @@ function Features() {
                             <div class="mt-4 md:mt-0">
                                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Automated Portfolio
                                     Management</h2>
-                                <p class="mb-6 font-light text-gray-500 md:text-lg">Enjoy hassle-free investing with Wealthify's
+                                <p class="mb-6 font-light text-gray-500 md:text-lg">Enjoy hassle-free investing with CapiSpark's
                                     automated portfolio management. Our advanced algorithms continuously monitor and rebalance
                                     your investments to maintain optimal diversification and alignment with your goals, saving
                                     you time and maximizing returns.</p>
@@ -48,7 +48,7 @@ function Features() {
                             <div class="mt-4 md:mt-0">
                                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Tax Optimization
                                     Strategies</h2>
-                                <p class="mb-6 font-light text-gray-500 md:text-lg">Wealthify incorporates tax optimization
+                                <p class="mb-6 font-light text-gray-500 md:text-lg">CapiSpark incorporates tax optimization
                                     strategies to minimize your tax liabilities and enhance your after-tax returns. Our
                                     intelligent tax-loss harvesting and other techniques help you keep more of your hard-earned
                                     money working for you, ensuring efficient wealth accumulation over time.</p>
